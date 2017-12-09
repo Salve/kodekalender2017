@@ -1,0 +1,17 @@
+Julenissens hjelpere jobber med å lage en funksjon for å generere labyrinter. Generatoren fungerer ved å putte inn x og y koordinatene til hver celle og den forteller deg om det skal settes opp en vegg eller ikke.
+
+De laget følgene generator:
+
+Gitt koordinatene (x,y) til en celle, kalkuler x3 + 12xy + 5xy2
+Tell antall enere i den binære representasjonen av svaret ovenfor; er det et oddetall skal det settes opp en mur, er det et partall skal det være åpent.
+For en 10x10 labyrint, med øvre venstre hjørne i (x0,y0)=(1,1), får de følgende labyrint. Vegger er representert med '#' og åpne celler med '_'.
+
+
+
+Med startpunkt i (1,1) og med gyldige bevegelser opp, ned, høyre og venstre, en celle av gangen; er det mulig å besøke de fleste cellene i labyrinten. Men ikke alle. Celler som (1,9), (1,10), (2,10) er ikke mulige å nå fra startposisjonen (1,1). Totalt er det 11 celler som ikke er mulige å nå.
+
+Hjelperne bestemmer seg for å bygge en labyrint med den beskrevne generatoren, med 1000x1000 celler.
+
+Hvor mange åpne celler er ikke mulige å nå fra startposisjon (1,1)?
+
+Oppgaven er laget av Ole-Steinar Skrede. Ole-Steinar jobber i Knowit som utvikler i et av våre team!
